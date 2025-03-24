@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rovista</title>
-
+    <!-- font-awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5d970a6637.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,5 +34,109 @@
       }
     </style>
   </head>
-  <body class="manrope-font"></body>
+  <body class="manrope-font">
+    <header class="xl:container w-9/10 mx-auto">
+      <nav class="pt-10">
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-7 w-7"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li><a>Service</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+                <div class="flex justify-end">
+                  <li>
+                    <a class="cursor-pointer">
+                      <span
+                        class="bg-white border border-gray-300 rounded-full w-7 h-7 flex justify-center items-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="cursor-pointer">
+                      <span
+                        class="bg-white border border-gray-300 rounded-full w-7 h-7 flex justify-center items-center"
+                      >
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </span>
+                    </a>
+                  </li>
+                </div>
+              </ul>
+            </div>
+            <a
+              class="hidden md:flex items-center justify-center text-3xl font-extrabold md:ml-2 lg:ml-0"
+            >
+              <span
+                class="bg-lime-400 rounded-full w-7 h-7 flex justify-center items-center mr-2"
+              >
+                <i
+                  class="fa-solid fa-arrow-right -rotate-45 text-lg font-light"
+                ></i>
+              </span>
+              Rovista
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="font-bold">Home</a></li>
+              <li><a>Service</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end space-x-4">
+            <a class="cursor-pointer hidden md:block">
+              <span
+                class="bg-white border border-gray-300 rounded-full w-7 h-7 flex justify-center items-center"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+            </a>
+            <a class="cursor-pointer hidden md:block">
+              <span
+                class="bg-white border border-gray-300 rounded-full w-7 h-7 flex justify-center items-center"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+            </a>
+            <a class="btn rounded-full bg-lime-400 font-extrabold"
+              >Book Consult
+              <span
+                class="bg-black rounded-full w-7 h-7 flex justify-center items-center"
+              >
+                <i class="fa-solid fa-arrow-right text-white -rotate-45"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
